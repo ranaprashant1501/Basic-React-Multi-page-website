@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    font-size: 100px;
+    color: black;
+    font-weight: 800;
+}
+
+
+.nav{
+    background-color: rgb(28, 120, 90);
+    height: 10vh;
+    font-size: 28px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 48px;
+    font-weight: 800;
+    background-color: plum;
+    border-radius: 50%;
+    padding: 5px 18px;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.error{
+    color: red;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: cornflowerblue;
+    padding: 8px 0 8px 0;
+}
+
+nav .link{
+    background-color: orange;
+    font-size: 36px;
+    border-radius: 1rem;
+    padding: 2px 5px 2px 5px;
+}
+
+.app{
+    position: relative;
+    min-height: 100vh;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    height: 8vh;
+    background-color: blue;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer button{
+    background-color: orange;
+    height:max-content;
+    padding: 4px 8px 4px 8px;
+    font-size: larger;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
